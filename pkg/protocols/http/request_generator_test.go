@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/disk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/disk"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/Jarnpher553/nuclei/v3/pkg/types"
 )
 
 func TestRequestGeneratorPaths(t *testing.T) {

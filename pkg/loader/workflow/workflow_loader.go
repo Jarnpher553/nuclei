@@ -1,12 +1,12 @@
 package workflow
 
 import (
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/config"
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/loader/filter"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols"
+	"github.com/Jarnpher553/nuclei/v3/pkg/templates"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/loader/filter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
 )
 
 type workflowLoader struct {

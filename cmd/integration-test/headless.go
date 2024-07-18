@@ -7,7 +7,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/Jarnpher553/nuclei/v3/pkg/testutils"
 )
 
 var headlessTestcases = []TestCaseInfo{

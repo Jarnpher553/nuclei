@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model/types/severity"
+	"github.com/Jarnpher553/nuclei/v3/pkg/testutils"
 )
 
 func TestDNSCompileMake(t *testing.T) {

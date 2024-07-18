@@ -7,12 +7,12 @@
 
 
 <p align="center">
-<img src="https://img.shields.io/github/go-mod/go-version/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/releases"><img src="https://img.shields.io/github/downloads/projectdiscovery/nuclei/total">
-<a href="https://github.com/projectdiscovery/nuclei/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/releases/"><img src="https://img.shields.io/github/release/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/issues"><img src="https://img.shields.io/github/issues-raw/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/discussions"><img src="https://img.shields.io/github/discussions/projectdiscovery/nuclei">
+<img src="https://img.shields.io/github/go-mod/go-version/Jarnpher553/nuclei">
+<a href="https://github.com/Jarnpher553/nuclei/releases"><img src="https://img.shields.io/github/downloads/Jarnpher553/nuclei/total">
+<a href="https://github.com/Jarnpher553/nuclei/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/Jarnpher553/nuclei">
+<a href="https://github.com/Jarnpher553/nuclei/releases/"><img src="https://img.shields.io/github/release/Jarnpher553/nuclei">
+<a href="https://github.com/Jarnpher553/nuclei/issues"><img src="https://img.shields.io/github/issues-raw/Jarnpher553/nuclei">
+<a href="https://github.com/Jarnpher553/nuclei/discussions"><img src="https://img.shields.io/github/discussions/Jarnpher553/nuclei">
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 <a href="https://twitter.com/pdnuclei"><img src="https://img.shields.io/twitter/follow/pdnuclei.svg?logo=twitter"></a>
 </p>
@@ -29,11 +29,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README.md">English</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_CN.md">中文</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_KR.md">Korean</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ID.md">Indonesia</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ES.md">Spanish</a>
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README.md">English</a> •
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README_CN.md">中文</a> •
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README_KR.md">Korean</a> •
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README_ID.md">Indonesia</a> •
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README_ES.md">Spanish</a>
 </p>
 
 ---
@@ -61,7 +61,7 @@ Nuclei使用零误报的定制模板向目标发送请求，同时可以对主�
 Nuclei需要 **go1.21** 才能安装成功。执行下列命令安装最新版本的Nuclei
 
 ```sh
-go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install -v github.com/Jarnpher553/nuclei/v3/cmd/nuclei@latest
 ```
 
 <details>
@@ -76,7 +76,7 @@ go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
   <summary>Docker</summary>
   
   ```sh
-  docker pull projectdiscovery/nuclei:latest
+  docker pull Jarnpher553/nuclei:latest
   ```
   
 </details>
@@ -89,7 +89,7 @@ go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 
 ### Nuclei模板
 
-自从[v2.5.2]((https://github.com/projectdiscovery/nuclei/releases/tag/v2.5.2))起，Nuclei就内置了自动下载和更新模板的功能。[**Nuclei模板**](https://github.com/projectdiscovery/nuclei-templates)仓库随时更新社区中可用的模板列表。
+自从[v2.5.2]((https://github.com/Jarnpher553/nuclei/releases/tag/v2.5.2))起，Nuclei就内置了自动下载和更新模板的功能。[**Nuclei模板**](https://github.com/projectdiscovery/nuclei-templates)仓库随时更新社区中可用的模板列表。
 
 您仍然可以随时使用`update-templates`命令更新模板，您可以根据[模板指南](https://nuclei.projectdiscovery.io/templating-guide/)为您的个人工作流和需求编写模板。
 
@@ -412,7 +412,7 @@ Nuclei构建很简单，通过数百名安全研究员的社区模板，Nuclei�
 
 ### 将nuclei加入您的代码
 
-有关使用Nuclei作为Library/SDK的完整指南，请访问[godoc](https://pkg.go.dev/github.com/projectdiscovery/nuclei/v3/lib#section-readme)
+有关使用Nuclei作为Library/SDK的完整指南，请访问[godoc](https://pkg.go.dev/github.com/Jarnpher553/nuclei/v3/lib#section-readme)
 
 ### 资源
 
@@ -430,13 +430,13 @@ Nuclei构建很简单，通过数百名安全研究员的社区模板，Nuclei�
 
 ### 致谢
 
-感谢所有[社区贡献者提供的PR](https://github.com/projectdiscovery/nuclei/graphs/contributors)，并不断更新此项目:heart:
+感谢所有[社区贡献者提供的PR](https://github.com/Jarnpher553/nuclei/graphs/contributors)，并不断更新此项目:heart:
 
 如果你有想法或某种改进，欢迎你参与该项目，随时发送你的PR。
 
 <p align="center">
-<a href="https://github.com/projectdiscovery/nuclei/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=projectdiscovery/nuclei&max=500">
+<a href="https://github.com/Jarnpher553/nuclei/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Jarnpher553/nuclei&max=500">
 </a>
 </p>
 
@@ -446,7 +446,7 @@ Nuclei构建很简单，通过数百名安全研究员的社区模板，Nuclei�
 
 ### 许可证
 
-Nuclei使用[MIT许可证](https://github.com/projectdiscovery/nuclei/blob/main/LICENSE.md)
+Nuclei使用[MIT许可证](https://github.com/Jarnpher553/nuclei/blob/main/LICENSE.md)
 
 <h1 align="left">
   <a href="https://discord.gg/projectdiscovery"><img src="static/Join-Discord.png" width="380" alt="Join Discord"></a> <a href="https://nuclei.projectdiscovery.io"><img src="static/check-nuclei-documentation.png" width="380" alt="Check Nuclei Documentation"></a>

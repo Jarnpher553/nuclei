@@ -1,6 +1,6 @@
-# Contributing to ProjectDiscovery/Nuclei
+# Contributing to Jarnpher553/nuclei
 
-We appreciate your interest in contributing to the projectdiscovery/nuclei! This document provides some basic guidelines for contributors.
+We appreciate your interest in contributing to the Jarnpher553/nuclei! This document provides some basic guidelines for contributors.
 
 ## Getting Started
 

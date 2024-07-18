@@ -7,12 +7,12 @@
 
 
 <p align="center">
-<img src="https://img.shields.io/github/go-mod/go-version/projectdiscovery/nuclei?filename=v2%2Fgo.mod">
-<a href="https://github.com/projectdiscovery/nuclei/releases"><img src="https://img.shields.io/github/downloads/projectdiscovery/nuclei/total">
-<a href="https://github.com/projectdiscovery/nuclei/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/releases/"><img src="https://img.shields.io/github/release/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/issues"><img src="https://img.shields.io/github/issues-raw/projectdiscovery/nuclei">
-<a href="https://github.com/projectdiscovery/nuclei/discussions"><img src="https://img.shields.io/github/discussions/projectdiscovery/nuclei">
+<img src="https://img.shields.io/github/go-mod/go-version/Jarnpher553/nuclei?filename=v2%2Fgo.mod">
+<a href="https://github.com/Jarnpher553/nuclei/releases"><img src="https://img.shields.io/github/downloads/Jarnpher553/nuclei/total">
+<a href="https://github.com/Jarnpher553/nuclei/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/Jarnpher553/nuclei">
+<a href="https://github.com/Jarnpher553/nuclei/releases/"><img src="https://img.shields.io/github/release/Jarnpher553/nuclei">
+<a href="https://github.com/Jarnpher553/nuclei/issues"><img src="https://img.shields.io/github/issues-raw/Jarnpher553/nuclei">
+<a href="https://github.com/Jarnpher553/nuclei/discussions"><img src="https://img.shields.io/github/discussions/Jarnpher553/nuclei">
 <a href="https://discord.gg/projectdiscovery"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 <a href="https://twitter.com/pdnuclei"><img src="https://img.shields.io/twitter/follow/pdnuclei.svg?logo=twitter"></a>
 </p>
@@ -29,11 +29,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README.md">English</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_CN.md">中文</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_KR.md">Korean</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ID.md">Indonesia</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ES.md">Spanish</a>
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README.md">English</a> •
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README_CN.md">中文</a> •
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README_KR.md">Korean</a> •
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README_ID.md">Indonesia</a> •
+  <a href="https://github.com/Jarnpher553/nuclei/blob/main/README_ES.md">Spanish</a>
 </p>
 
 ---
@@ -56,7 +56,7 @@ Kami memiliki [repositori khusus](https://github.com/projectdiscovery/nuclei-tem
 Nuclei membutuhkan **go1.21** agar dapat diinstall. Jalankan perintah berikut untuk menginstal versi terbaru -
 
 ```sh
-go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
+go install -v github.com/Jarnpher553/nuclei/v3/cmd/nuclei@latest
 ```
 
 **Metode [instalasi lain dapat ditemukan di sini](https://nuclei.projectdiscovery.io/nuclei/get-started/).**
@@ -67,7 +67,7 @@ go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 
 ### Nuclei Templates
 
-Nuclei memiliki dukungan untuk unduhan/pembaruan templat otomatis sebagai bawaan sejak versi [v2.5.2](https://github.com/projectdiscovery/nuclei/releases/tag/v2.5.2). Proyek [**Nuclei-Templates**](https://github.com/projectdiscovery/nuclei-templates) menyediakan daftar template siap pakai yang dibuat oleh komunitas yang terus diperbarui.
+Nuclei memiliki dukungan untuk unduhan/pembaruan templat otomatis sebagai bawaan sejak versi [v2.5.2](https://github.com/Jarnpher553/nuclei/releases/tag/v2.5.2). Proyek [**Nuclei-Templates**](https://github.com/projectdiscovery/nuclei-templates) menyediakan daftar template siap pakai yang dibuat oleh komunitas yang terus diperbarui.
 
 Anda dapat menggunakan flag `-update-templates` untuk memperbarui templat inti kapan saja; Anda juga dapat menulis pemeriksaan Anda sendiri untuk alur kerja individu dan untuk kebutuhan Anda sendiri dengan mengikuti [panduan pembuatan templat Nuclei](https://nuclei.projectdiscovery.io/templating-guide/).
 
@@ -398,13 +398,13 @@ Kami memiliki [utas diskusi tentang ini](https://github.com/projectdiscovery/nuc
 
 ### Kredit
 
-Terima kasih kepada semua komunitas yang luar biasa yang [berkontribusi untuk mengirimkan PR](https://github.com/projectdiscovery/nuclei/graphs/contributors). Lihat juga proyek sumber-terbuka serupa di bawah ini yang mungkin sesuai dengan alur kerja Anda:
+Terima kasih kepada semua komunitas yang luar biasa yang [berkontribusi untuk mengirimkan PR](https://github.com/Jarnpher553/nuclei/graphs/contributors). Lihat juga proyek sumber-terbuka serupa di bawah ini yang mungkin sesuai dengan alur kerja Anda:
 
 [FFuF](https://github.com/ffuf/ffuf), [Qsfuzz](https://github.com/ameenmaali/qsfuzz), [Inception](https://github.com/proabiral/inception), [Snallygaster](https://github.com/hannob/snallygaster), [Gofingerprint](https://github.com/Static-Flow/gofingerprint), [Sn1per](https://github.com/1N3/Sn1per/tree/master/templates), [Google tsunami](https://github.com/google/tsunami-security-scanner), [Jaeles](https://github.com/jaeles-project/jaeles), [ChopChop](https://github.com/michelin/ChopChop)
 
 ### Lisensi
 
-Nuclei didistribusikan di bawah [Lisensi MIT](https://github.com/projectdiscovery/nuclei/blob/main/LICENSE.md)
+Nuclei didistribusikan di bawah [Lisensi MIT](https://github.com/Jarnpher553/nuclei/blob/main/LICENSE.md)
 
 <h1 align="left">
   <a href="https://discord.gg/projectdiscovery"><img src="static/Join-Discord.png" width="380" alt="Join Discord"></a> <a href="https://nuclei.projectdiscovery.io"><img src="static/check-nuclei-documentation.png" width="380" alt="Cek Dokumentasi Nuclei"></a>

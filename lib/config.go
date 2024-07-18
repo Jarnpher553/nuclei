@@ -9,16 +9,16 @@ import (
 	"github.com/projectdiscovery/gologger"
 	"github.com/projectdiscovery/ratelimit"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/authprovider"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/hosterrorscache"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/interactsh"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/utils/vardump"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/headless/engine"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
+	"github.com/Jarnpher553/nuclei/v3/pkg/authprovider"
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model/types/severity"
+	"github.com/Jarnpher553/nuclei/v3/pkg/output"
+	"github.com/Jarnpher553/nuclei/v3/pkg/progress"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/hosterrorscache"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/interactsh"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/utils/vardump"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/headless/engine"
+	"github.com/Jarnpher553/nuclei/v3/pkg/templates/types"
 )
 
 // TemplateSources contains template sources

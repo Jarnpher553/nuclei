@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/contextargs"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/contextargs"
 	urlutil "github.com/projectdiscovery/utils/url"
 	"github.com/stretchr/testify/require"
 )

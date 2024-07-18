@@ -8,8 +8,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/protocolstate"
+	"github.com/Jarnpher553/nuclei/v3/pkg/types"
 	errorutil "github.com/projectdiscovery/utils/errors"
 	"github.com/projectdiscovery/utils/reader"
 )

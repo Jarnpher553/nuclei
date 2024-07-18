@@ -6,15 +6,15 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/config"
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/loader"
 	"github.com/alecthomas/chroma/quick"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/logrusorgru/aurora"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/loader"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/templates"
+	"github.com/Jarnpher553/nuclei/v3/pkg/types"
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
 )
 
 // log available templates for verbose (-vv)

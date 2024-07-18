@@ -5,8 +5,8 @@ import (
 	"os"
 	"sync"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/model/types/severity"
 	"github.com/logrusorgru/aurora"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
 	fileutil "github.com/projectdiscovery/utils/file"
 )
 

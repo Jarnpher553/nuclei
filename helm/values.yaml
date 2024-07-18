@@ -7,7 +7,7 @@ replicaCount: 1
 nuclei:
   enabled: true
   image:
-    repository: docker.io/projectdiscovery/nuclei
+    repository: docker.io/Jarnpher553/nuclei
     pullPolicy: IfNotPresent
     tag: "v2.7.5"
 

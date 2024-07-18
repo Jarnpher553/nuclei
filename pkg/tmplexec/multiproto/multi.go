@@ -4,11 +4,11 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/scan"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates/types"
+	"github.com/Jarnpher553/nuclei/v3/pkg/output"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/Jarnpher553/nuclei/v3/pkg/scan"
+	"github.com/Jarnpher553/nuclei/v3/pkg/templates/types"
 	stringsutil "github.com/projectdiscovery/utils/strings"
 )
 

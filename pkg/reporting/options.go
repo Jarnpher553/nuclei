@@ -1,17 +1,17 @@
 package reporting
 
 import (
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/es"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/jsonexporter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/jsonl"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/markdown"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/sarif"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/exporters/splunk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/filters"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/gitea"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/github"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/gitlab"
-	"github.com/projectdiscovery/nuclei/v3/pkg/reporting/trackers/jira"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/exporters/es"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/exporters/jsonexporter"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/exporters/jsonl"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/exporters/markdown"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/exporters/sarif"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/exporters/splunk"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/trackers/filters"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/trackers/gitea"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/trackers/github"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/trackers/gitlab"
+	"github.com/Jarnpher553/nuclei/v3/pkg/reporting/trackers/jira"
 	"github.com/projectdiscovery/retryablehttp-go"
 )
 

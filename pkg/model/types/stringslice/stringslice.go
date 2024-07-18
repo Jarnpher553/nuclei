@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/utils"
 	"github.com/invopop/jsonschema"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
 )
 
 type StringOrSlice string

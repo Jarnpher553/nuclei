@@ -11,19 +11,19 @@ import (
 
 	"github.com/logrusorgru/aurora"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/config"
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/disk"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model/types/severity"
+	"github.com/Jarnpher553/nuclei/v3/pkg/output"
+	"github.com/Jarnpher553/nuclei/v3/pkg/progress"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/protocolinit"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/protocolstate"
+	protocolUtils "github.com/Jarnpher553/nuclei/v3/pkg/protocols/utils"
+	"github.com/Jarnpher553/nuclei/v3/pkg/types"
+	"github.com/Jarnpher553/nuclei/v3/pkg/utils"
 	"github.com/projectdiscovery/gologger/levels"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/disk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/output"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolinit"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/protocolstate"
-	protocolUtils "github.com/projectdiscovery/nuclei/v3/pkg/protocols/utils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
 	unitutils "github.com/projectdiscovery/utils/unit"
 )
 
@@ -89,17 +89,17 @@ type TemplateInfo struct {
 func NewMockExecuterOptions(options *types.Options, info *TemplateInfo) *protocols.ExecutorOptions {
 	progressImpl, _ := progress.NewStatsTicker(0, false, false, false, 0)
 	executerOpts := &protocols.ExecutorOptions{
-		TemplateID:      info.ID,
-		TemplateInfo:    info.Info,
-		TemplatePath:    info.Path,
-		Output:          NewMockOutputWriter(options.OmitTemplate),
-		Options:         options,
-		Progress:        progressImpl,
-		ProjectFile:     nil,
-		IssuesClient:    nil,
-		Browser:         nil,
-		Catalog:         disk.NewCatalog(config.DefaultConfig.TemplatesDirectory),
-		RateLimiter:     ratelimit.New(context.Background(), uint(options.RateLimit), time.Second),
+		TemplateID:   info.ID,
+		TemplateInfo: info.Info,
+		TemplatePath: info.Path,
+		Output:       NewMockOutputWriter(options.OmitTemplate),
+		Options:      options,
+		Progress:     progressImpl,
+		ProjectFile:  nil,
+		IssuesClient: nil,
+		Browser:      nil,
+		Catalog:      disk.NewCatalog(config.DefaultConfig.TemplatesDirectory),
+		RateLimiter:  ratelimit.New(context.Background(), uint(options.RateLimit), time.Second),
 	}
 	executerOpts.CreateTemplateCtxStore()
 	return executerOpts

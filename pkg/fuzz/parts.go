@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz/component"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/expressions"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/Jarnpher553/nuclei/v3/pkg/fuzz/component"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/expressions"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/Jarnpher553/nuclei/v3/pkg/types"
 	"github.com/projectdiscovery/retryablehttp-go"
 	sliceutil "github.com/projectdiscovery/utils/slice"
 )

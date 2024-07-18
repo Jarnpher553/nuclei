@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strings"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog"
 	"github.com/cespare/xxhash"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog"
 	"github.com/projectdiscovery/retryablehttp-go"
 	mapsutil "github.com/projectdiscovery/utils/maps"
 	"golang.org/x/exp/constraints"

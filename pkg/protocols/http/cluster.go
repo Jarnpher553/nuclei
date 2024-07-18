@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/utils"
 	"github.com/cespare/xxhash"
-	"github.com/projectdiscovery/nuclei/v3/pkg/utils"
 )
 
 // TmplClusterKey generates a unique key for the request

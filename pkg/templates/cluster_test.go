@@ -3,11 +3,11 @@ package templates
 import (
 	"testing"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/dns"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http"
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model/types/severity"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/dns"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/http"
+	"github.com/Jarnpher553/nuclei/v3/pkg/testutils"
 	"github.com/stretchr/testify/require"
 )
 

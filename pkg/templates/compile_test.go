@@ -10,23 +10,23 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/config"
+	"github.com/Jarnpher553/nuclei/v3/pkg/catalog/disk"
+	"github.com/Jarnpher553/nuclei/v3/pkg/loader/workflow"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model/types/severity"
+	"github.com/Jarnpher553/nuclei/v3/pkg/model/types/stringslice"
+	"github.com/Jarnpher553/nuclei/v3/pkg/operators"
+	"github.com/Jarnpher553/nuclei/v3/pkg/operators/matchers"
+	"github.com/Jarnpher553/nuclei/v3/pkg/progress"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/variables"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/http"
+	"github.com/Jarnpher553/nuclei/v3/pkg/templates"
+	"github.com/Jarnpher553/nuclei/v3/pkg/testutils"
+	"github.com/Jarnpher553/nuclei/v3/pkg/workflows"
 	"github.com/julienschmidt/httprouter"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/config"
-	"github.com/projectdiscovery/nuclei/v3/pkg/catalog/disk"
-	"github.com/projectdiscovery/nuclei/v3/pkg/loader/workflow"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/severity"
-	"github.com/projectdiscovery/nuclei/v3/pkg/model/types/stringslice"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/matchers"
-	"github.com/projectdiscovery/nuclei/v3/pkg/progress"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/variables"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/http"
-	"github.com/projectdiscovery/nuclei/v3/pkg/templates"
-	"github.com/projectdiscovery/nuclei/v3/pkg/testutils"
-	"github.com/projectdiscovery/nuclei/v3/pkg/workflows"
 	"github.com/projectdiscovery/ratelimit"
 	"github.com/stretchr/testify/require"
 )
@@ -39,15 +39,15 @@ func setup() {
 	progressImpl, _ := progress.NewStatsTicker(0, false, false, false, 0)
 
 	executerOpts = protocols.ExecutorOptions{
-		Output:          testutils.NewMockOutputWriter(options.OmitTemplate),
-		Options:         options,
-		Progress:        progressImpl,
-		ProjectFile:     nil,
-		IssuesClient:    nil,
-		Browser:         nil,
-		Catalog:         disk.NewCatalog(config.DefaultConfig.TemplatesDirectory),
-		RateLimiter:     ratelimit.New(context.Background(), uint(options.RateLimit), time.Second),
-		Parser:          templates.NewParser(),
+		Output:       testutils.NewMockOutputWriter(options.OmitTemplate),
+		Options:      options,
+		Progress:     progressImpl,
+		ProjectFile:  nil,
+		IssuesClient: nil,
+		Browser:      nil,
+		Catalog:      disk.NewCatalog(config.DefaultConfig.TemplatesDirectory),
+		RateLimiter:  ratelimit.New(context.Background(), uint(options.RateLimit), time.Second),
+		Parser:       templates.NewParser(),
 	}
 	workflowLoader, err := workflow.NewLoader(&executerOpts)
 	if err != nil {

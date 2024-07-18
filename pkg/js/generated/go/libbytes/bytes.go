@@ -1,10 +1,10 @@
 package bytes
 
 import (
-	lib_bytes "github.com/projectdiscovery/nuclei/v3/pkg/js/libs/bytes"
+	lib_bytes "github.com/Jarnpher553/nuclei/v3/pkg/js/libs/bytes"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/js/gojs"
 	"github.com/dop251/goja"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/gojs"
 )
 
 var (

@@ -3,8 +3,8 @@ package matchers
 import (
 	"testing"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/operators/common/dsl"
 	"github.com/Knetic/govaluate"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators/common/dsl"
 	"github.com/stretchr/testify/require"
 )
 

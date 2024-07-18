@@ -7,8 +7,8 @@ import (
 
 	"github.com/dop251/goja"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/types"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/Jarnpher553/nuclei/v3/pkg/types"
 	contextutil "github.com/projectdiscovery/utils/context"
 	"github.com/projectdiscovery/utils/errkit"
 	stringsutil "github.com/projectdiscovery/utils/strings"

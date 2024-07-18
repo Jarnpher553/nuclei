@@ -3,9 +3,9 @@ package bytes
 import (
 	"encoding/hex"
 
+	"github.com/Jarnpher553/nuclei/v3/pkg/js/libs/structs"
+	"github.com/Jarnpher553/nuclei/v3/pkg/js/utils"
 	"github.com/dop251/goja"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/libs/structs"
-	"github.com/projectdiscovery/nuclei/v3/pkg/js/utils"
 )
 
 type (

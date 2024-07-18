@@ -3,12 +3,12 @@ package headless
 import (
 	"github.com/pkg/errors"
 
-	"github.com/projectdiscovery/nuclei/v3/pkg/fuzz"
-	useragent "github.com/projectdiscovery/nuclei/v3/pkg/model/types/userAgent"
-	"github.com/projectdiscovery/nuclei/v3/pkg/operators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/common/generators"
-	"github.com/projectdiscovery/nuclei/v3/pkg/protocols/headless/engine"
+	"github.com/Jarnpher553/nuclei/v3/pkg/fuzz"
+	useragent "github.com/Jarnpher553/nuclei/v3/pkg/model/types/userAgent"
+	"github.com/Jarnpher553/nuclei/v3/pkg/operators"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/common/generators"
+	"github.com/Jarnpher553/nuclei/v3/pkg/protocols/headless/engine"
 	uagent "github.com/projectdiscovery/useragent"
 	fileutil "github.com/projectdiscovery/utils/file"
 )
